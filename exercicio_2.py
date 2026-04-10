@@ -1,15 +1,5 @@
-"""
-#### Exercício 2
+peso = float(input("Digite o peso (kg): "))
 
-Uma fórmula recomenda 2mg de medicamento por kg de peso do paciente.
+dose = peso * 2
 
-Peça o peso de uma pessoa e calcule a dose recomendada.
-
-Exemplo:
-
-Digite o peso do paciente (em kg):
-70
-
-Resposta:
-Média: 140 mg
-"""
+print(f"A dose recomendada é: {dose:.2f} mg")
