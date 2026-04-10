@@ -8,13 +8,13 @@ if reads < 10 or vaf < 20:
     print("Não relevante")
 
 elif impacto == "ALTO":
-    print("Não relevante")
+    print("É relevante")
 
 elif frequencia > 5 and gene not in ["HFE", "MEFV", "GJB2"]:
-    print("Não relevante")    
+    print("Não é relevante")    
 
 elif vaf > 0 and vaf < 100: 
-    print("Relevante")
+    print("É relevante")
 
 else:
-    print("Relevante")
+    print("É relevante")
